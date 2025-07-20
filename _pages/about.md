@@ -23,11 +23,13 @@ Welcome to ASISys – an open-source organization dedicated to advancing system 
 
 We focus on scalable, efficient, and adaptive AI systems that evolve over time, improving the efficacy and efficiency of both AI training and serving. Our work includes developing architectures, systems, algorithms, and tools that are essential for the transition from narrow AI to super intelligent systems.
 
+---
+
 ## Publications
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --group_by none %}
 
 </div>
 
