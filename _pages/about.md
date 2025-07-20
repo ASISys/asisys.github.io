@@ -1,9 +1,9 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle: >
-  <b>Email:</b> <a href="mailto:pfzuo.cs@gmail.com">pfzuo.cs@gmail.com</a>, <a href="mailto:pengfei.zuo@huawei.com">pengfei.zuo@huawei.com</a>
+  <b>Github Repo:</b> <a href="https://github.com/ASISys">github.com/ASISys</a>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,20 +22,6 @@ latest_posts:
 Welcome to ASISys – an open-source organization dedicated to advancing system research and development in Artificial Super Intelligence (ASI). While ASI has not yet been fully realized, our vision is to create foundational systems and techniques that push the boundaries of current AI and lay the groundwork for the future emergence of ASI.
 
 We focus on scalable, efficient, and adaptive AI systems that evolve over time, improving the efficacy and efficiency of both AI training and serving. Our work includes developing architectures, systems, algorithms, and tools that are essential for the transition from narrow AI to super intelligent systems.
-
----
-
-## Publications
-
-<div class="publications">
-
-{% bibliography --group_by none %}
-
-</div>
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
 
 ---
 
@@ -58,4 +44,21 @@ We focus on scalable, efficient, and adaptive AI systems that evolve over time, 
   </div>
 {% endif %}
 </div>
+
+---
+
+## Publications
+
+<div class="publications">
+
+{% bibliography --group_by none %}
+
+</div>
+
+{% assign sorted_projects = site.projects | sort: "importance" %}
+
+  <!-- Generate cards for each project -->
+
+---
+
 
