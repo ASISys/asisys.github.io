@@ -27,6 +27,10 @@ We focus on scalable, efficient, and adaptive AI systems that evolve over time, 
 
 ## Projects
 
+{% assign sorted_projects = site.projects | sort: "importance" %}
+
+  <!-- Generate cards for each project -->
+
 <div class="projects">
 {% if page.horizontal %}
   <div class="container">
@@ -55,10 +59,4 @@ We focus on scalable, efficient, and adaptive AI systems that evolve over time, 
 
 </div>
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
 ---
-
-
