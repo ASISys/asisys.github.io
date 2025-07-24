@@ -64,7 +64,7 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
+    <!-- Social 
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
@@ -72,9 +72,15 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+    -->
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+    <!-- ClustrMaps Globe Widget  -->
+    <div style="max-width: 600px; margin: 2rem auto;">
+        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=d25dc2&w=a&t=m&d=OYfYFGjBwOpaZkZpSVesWV5JKs7kfHFVR3UDsPCD8gM&co=ffffff&ct=000000&cmo=ff0000&cmn=0000ff'></script>
+    </div>
   </article>
 </div>
